@@ -564,51 +564,54 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
-    <div class="container contact-layout">
-      <div>
-        <h2 class="section-title">Let’s Connect</h2>
-        <p class="section-subtitle">
-          Open to Salesforce consulting and AI + CRM roles in Bangkok, as well as global freelance and project-based engagements.
-        </p>
-        <ul class="contact-info">
-          <li><strong>Email:</strong> <a href="mailto:nandanmukkawar@gmail.com">nandanmukkawar@gmail.com</a></li>
-          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nandan-apm" target="_blank" rel="noreferrer">linkedin.com/in/nandan-apm</a></li>
-          <li><strong>Location:</strong> Based in Pune, India • Open to relocation to Bangkok & remote work</li>
-        </ul>
-      </div>
-      <div>
-        <form
-          id="contactForm"
-          class="contact-form"
-          action="https://formspree.io/f/mnnkzjbk"
-          method="POST"
-        >
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required />
-          </div>
-          <div class="form-row">
-            <label for="email">Email</label>
-            <input id="email" name="_replyto" type="email" required />
-          </div>
-          <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </div>
-          <button class="btn btn-primary" type="submit">Send Message</button>
-          <p id="formStatus" class="form-status"></p>
-        </form>
-      </div>
-    </div>
-  </section>
+<section id="contact" class="section section-alt">
+  <div class="container contact-layout">
+    <div>
+      <h2 class="section-title">Let’s Connect</h2>
+      <p class="section-subtitle">
+        Open to Salesforce consulting and AI + CRM roles in Bangkok, as well as global freelance and project-based engagements.
+      </p>
+      <ul class="contact-info">
+        <li><strong>Email:</strong> <a href="mailto:nandanmukkawar@gmail.com">nandanmukkawar@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nandan-apm" target="_blank" rel="noreferrer">linkedin.com/in/nandan-apm</a></li>
+        <li><strong>Location:</strong> Based in Pune, India • Open to relocation to Bangkok & remote work</li>
+      </ul>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p>© <span id="year"></span> Nandan Mukkawar. All rights reserved.</p>
-    </div>
-  </footer>
+      <!-- NEW: Calendly Button -->
+      <a 
+        href="https://calendly.com/nandanmukkawar7/30min" 
+        target="_blank" 
+        rel="noreferrer"
+        class="btn btn-primary"
+        style="margin-top: 20px; display: inline-block;"
+      >
+        Book a 30-min Discovery Call
+      </a>
 
-  <script src="script.js"></script>
-</body>
-</html>
+    </div>
+
+    <div>
+      <form
+        id="contactForm"
+        class="contact-form"
+        action="https://formspree.io/f/mnnkzjbk"
+        method="POST"
+      >
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="_replyto" type="email" required />
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Send Message</button>
+        <p id="formStatus" class="form-status"></p>
+      </form>
+    </div>
+  </div>
+</section>
