@@ -48,46 +48,52 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <!-- Language Switcher -->
+      <div class="lang-switch">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="th">ไทย</button>
+      </div>
     </div>
   </header>
 
- <!-- HERO -->
-<section id="hero" class="hero-section" style="padding: 140px 0 100px; text-align: center;">
-  <div class="container">
+  <!-- HERO -->
+  <section id="hero" class="hero-section" style="padding: 140px 0 100px; text-align: center;">
+    <div class="container">
 
-    <p class="hero-kicker">Salesforce • AI • RevOps</p>
+      <p class="hero-kicker" data-i18n="hero_kicker">Salesforce • AI • RevOps</p>
 
-    <h1 class="hero-title" style="max-width: 900px; margin: 0 auto;">
-      I help companies transform Salesforce into a smarter, 
-      AI-powered revenue engine.
-    </h1>
+      <h1 class="hero-title" style="max-width: 900px; margin: 0 auto;" data-i18n="hero_title">
+        I help companies transform Salesforce into a smarter, 
+        AI-powered revenue engine.
+      </h1>
 
-    <p class="hero-subtitle" style="max-width: 750px; margin: 20px auto 40px;">
-      I’m <strong>Nandan Mukkawar</strong> — Salesforce & AI Consultant focused on 
-      automation, commercial operations, and CRM modernization.
-      Open to roles in Bangkok and global freelance projects.
-    </p>
+      <p class="hero-subtitle" style="max-width: 750px; margin: 20px auto 40px;" data-i18n="hero_subtitle">
+        I’m <strong>Nandan Mukkawar</strong> — Salesforce & AI Consultant focused on 
+        automation, commercial operations, and CRM modernization.
+        Open to roles in Bangkok and global freelance projects.
+      </p>
 
-    <div class="hero-actions" style="margin-top: 10px;">
-      <a href="https://calendly.com/nandanmukkawar7/30min" 
-         class="btn btn-primary" 
-         target="_blank" 
-         rel="noreferrer">
-        Book a Call
-      </a>
-      <a href="#business-cases" class="btn btn-outline">
-        View My Work
-      </a>
+      <div class="hero-actions" style="margin-top: 10px;">
+        <a href="https://calendly.com/nandanmukkawar7/30min" 
+          class="btn btn-primary" 
+          target="_blank" 
+          rel="noreferrer"
+          data-i18n="hero_cta_primary">
+          Book a Call
+        </a>
+        <a href="#business-cases" class="btn btn-outline" data-i18n="hero_cta_secondary">
+          View My Work
+        </a>
+      </div>
+
     </div>
-
-  </div>
-</section>
-
+  </section>
 
   <!-- TRUSTED BY -->
   <section class="section section-alt">
     <div class="container">
-      <p class="section-subtitle">
+      <p class="section-subtitle" data-i18n="trusted_by">
         Trusted by teams at <strong>Accenture</strong> and <strong>WillsCot</strong>, collaborating with stakeholders across sales, marketing, and commercial operations.
       </p>
     </div>
@@ -348,48 +354,48 @@
         <article class="case-card">
           <div class="case-content">
             <h3>Lead Scoring Model for Commercial Ops</h3>
-            <p class="case-company">WillsCot — Commercial Operations</p>
-            <p class="case-label">Challenge</p>
-            <p>
-              No consistent way to prioritise leads based on intent and readiness, leading to missed opportunities.
-            </p>
-            <p class="case-label">Action</p>
-            <p>
-              Designed and implemented a lead scoring framework within CRM based on buyer intent signals,
-              engagement, and fit, and aligned the scoring logic with sales playbooks.
-            </p>
-            <p class="case-label">Impact</p>
-            <ul class="case-metrics">
-              <li>Higher quality sales conversations</li>
-              <li>Improved follow-up accuracy & velocity</li>
-            </ul>
-          </div>
-        </article>
+          <p class="case-company">WillsCot — Commercial Operations</p>
+          <p class="case-label">Challenge</p>
+          <p>
+            No consistent way to prioritise leads based on intent and readiness, leading to missed opportunities.
+          </p>
+          <p class="case-label">Action</p>
+          <p>
+            Designed and implemented a lead scoring framework within CRM based on buyer intent signals,
+            engagement, and fit, and aligned the scoring logic with sales playbooks.
+          </p>
+          <p class="case-label">Impact</p>
+          <ul class="case-metrics">
+            <li>Higher quality sales conversations</li>
+            <li>Improved follow-up accuracy & velocity</li>
+          </ul>
+        </div>
+      </article>
 
-        <!-- Case 6 -->
-        <article class="case-card">
-          <div class="case-content">
-            <h3>ABM Data Deduplication & Governance</h3>
-            <p class="case-company">WillsCot — Commercial Operations</p>
-            <p class="case-label">Challenge</p>
-            <p>
-              Duplicate Leads, Contacts, and Accounts distorted reporting and ABM campaigns.
-            </p>
-            <p class="case-label">Action</p>
-            <p>
-              Established a deduplication process and governance for ABM across Leads, Contacts, and Accounts,
-              including rules, checks, and ongoing hygiene practices.
-            </p>
-            <p class="case-label">Impact</p>
-            <ul class="case-metrics">
-              <li>More accurate reporting & segmentation</li>
-              <li>Stronger ABM & campaign performance</li>
-            </ul>
-          </div>
-        </article>
-      </div>
+      <!-- Case 6 -->
+      <article class="case-card">
+        <div class="case-content">
+          <h3>ABM Data Deduplication & Governance</h3>
+          <p class="case-company">WillsCot — Commercial Operations</p>
+          <p class="case-label">Challenge</p>
+          <p>
+            Duplicate Leads, Contacts, and Accounts distorted reporting and ABM campaigns.
+          </p>
+          <p class="case-label">Action</p>
+          <p>
+            Established a deduplication process and governance for ABM across Leads, Contacts, and Accounts,
+            including rules, checks, and ongoing hygiene practices.
+          </p>
+          <p class="case-label">Impact</p>
+          <ul class="case-metrics">
+            <li>More accurate reporting & segmentation</li>
+            <li>Stronger ABM & campaign performance</li>
+          </ul>
+        </div>
+      </article>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- EXPERIENCE -->
   <section id="experience" class="section section-alt">
@@ -563,54 +569,65 @@
   </section>
 
   <!-- CONTACT -->
-<section id="contact" class="section section-alt">
-  <div class="container contact-layout">
-    <div>
-      <h2 class="section-title">Let’s Connect</h2>
-      <p class="section-subtitle">
-        Open to Salesforce consulting and AI + CRM roles in Bangkok, as well as global freelance and project-based engagements.
-      </p>
-      <ul class="contact-info">
-        <li><strong>Email:</strong> <a href="mailto:nandanmukkawar@gmail.com">nandanmukkawar@gmail.com</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nandan-apm" target="_blank" rel="noreferrer">linkedin.com/in/nandan-apm</a></li>
-        <li><strong>Location:</strong> Based in Pune, India • Open to relocation to Bangkok & remote work</li>
-      </ul>
+  <section id="contact" class="section section-alt">
+    <div class="container contact-layout">
+      <div>
+        <h2 class="section-title">Let’s Connect</h2>
+        <p class="section-subtitle" data-i18n="contact_intro">
+          Open to Salesforce consulting and AI + CRM roles in Bangkok, as well as global freelance and project-based engagements.
+        </p>
+        <ul class="contact-info">
+          <li><strong>Email:</strong> <a href="mailto:nandanmukkawar@gmail.com">nandanmukkawar@gmail.com</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/nandan-apm" target="_blank" rel="noreferrer">linkedin.com/in/nandan-apm</a></li>
+          <li data-i18n="contact_location">
+            <strong>Location:</strong> Based in Pune, India • Open to relocation to Bangkok & remote work
+          </li>
+        </ul>
 
-      <!-- NEW: Calendly Button -->
-      <a 
-        href="https://calendly.com/nandanmukkawar7/30min" 
-        target="_blank" 
-        rel="noreferrer"
-        class="btn btn-primary"
-        style="margin-top: 20px; display: inline-block;"
-      >
-        Book a 30-min Discovery Call
-      </a>
+        <a 
+          href="https://calendly.com/nandanmukkawar7/30min" 
+          target="_blank" 
+          rel="noreferrer"
+          class="btn btn-primary"
+          style="margin-top: 20px; display: inline-block;"
+        >
+          Book a 30-min Discovery Call
+        </a>
 
+      </div>
+
+      <div>
+        <form
+          id="contactForm"
+          class="contact-form"
+          action="https://formspree.io/f/mnnkzjbk"
+          method="POST"
+        >
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="_replyto" type="email" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="formStatus" class="form-status"></p>
+        </form>
+      </div>
     </div>
+  </section>
 
-    <div>
-      <form
-        id="contactForm"
-        class="contact-form"
-        action="https://formspree.io/f/mnnkzjbk"
-        method="POST"
-      >
-        <div class="form-row">
-          <label for="name">Name</label>
-          <input id="name" name="name" type="text" required />
-        </div>
-        <div class="form-row">
-          <label for="email">Email</label>
-          <input id="email" name="_replyto" type="email" required />
-        </div>
-        <div class="form-row">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="4" required></textarea>
-        </div>
-        <button class="btn btn-primary" type="submit">Send Message</button>
-        <p id="formStatus" class="form-status"></p>
-      </form>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nandan Mukkawar. All rights reserved.</p>
     </div>
-  </div>
-</section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
